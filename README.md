@@ -1,7 +1,7 @@
 # CCI_AP_PoseLoops
 A music generation tool combined with Posenet and MusicRNN in the browser
 
-**Github**: [CCI_AP_PoseLoops](https://github.com/ShuSQ/CCI_AP_PoseLoops)
+**GitHub**: [CCI_AP_PoseLoops](https://github.com/ShuSQ/CCI_AP_PoseLoops)
 
 **Youtube**: [CCI_Advanced Project_PoseLoops](https://youtu.be/fTIae_AJdlc)
 
