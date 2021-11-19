@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+
+.container {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  width: 180px;
+  height: 60px;
+  position: absolute;
+}
+
+.btn {
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #1d1d1d;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: rgb(100, 100, 100);
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+}
+
+.btn:hover {
+  transition: 1s ease-in-out;
+  background: #000000;
+}
+
+.btn:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.btn:hover span {
+    color: rgba(255, 255, 255, 1);
+    transition: 1s ease-in-out;
+
+}
+
+.btn span {
+  color: rgb(11, 11, 11);
+  font-size: 18px;
+  font-weight: 100;
+  transition: 1s ease-in-out;
+
+}
+
+.text-block {
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 37%;
+    font-size: 80px;
+    line-height: 100px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-box {
+    position: absolute;
+    float: left;
+    text-align: center;
+    width: 600px;
+    margin-top: 20%;
+    margin-left: 28%; 
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 50px; 
+    color: rgba(0, 0, 0, 0.7);
+    border-style: solid none solid none;
+    border-width: 1px;
+}
+
+.foot-note {
+    position: absolute;
+    float: left;
+    text-align: center;
+    margin-top: 52%;
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 40%;
+
+}
