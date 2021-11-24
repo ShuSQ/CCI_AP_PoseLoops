@@ -5,11 +5,11 @@ A music generation tool combined with Posenet and MusicRNN in the browser.
 
 You can learn more about the project through the following links:
 
-**📎GitHub**: [CCI_AP_PoseLoops](https://github.com/ShuSQ/CCI_AP_PoseLoops)
+**GitHub📎**: [CCI_AP_PoseLoops](https://github.com/ShuSQ/CCI_AP_PoseLoops)
 
-**🎬Youtube**: [CCI_Advanced Project_PoseLoops](https://youtu.be/fTIae_AJdlc)
+**Youtube🎬**: [CCI_Advanced Project_PoseLoops](https://youtu.be/fTIae_AJdlc)
 
-**📦CodeSandbox**: [Demo](https://iqvt3.csb.app/)
+**CodeSandbox📦**: [Demo](https://iqvt3.csb.app/)
 
 > If loops are not generated when you try, you may need to spend a while waiting for the model to be loaded.  (´･_･`)
 
@@ -491,7 +491,7 @@ After clicking `cleanBtn`, all input states in the checkboxGroup will be set to 
 
 In the final interface visual design, I chose a relatively simple solid color style, which allows users to focus more on the interaction with interface elements. Similarly, I also added a js animation library (https ://zzz.dog), to help me create the loop animation on the loading interface, I also refer to the button styles of many other people, these elements enrich my project, so that users will not be so monotonous when they try; In CSS, the difficulty encountered is to adjust the native label elements. It takes a lot of time to understand how an input is defined. Of course, it also requires constant adjustment of parameters to achieve an ideal effect. This requires no little patience.
 
-![](https://cdn-images-1.medium.com/max/720/1*TpY3HFezg-CqDlewhhKDBw.png)
+![](https://cdn-images-1.medium.com/max/960/1*TpY3HFezg-CqDlewhhKDBw.png)
 
 ##### 7. Summary and Outlook
 
