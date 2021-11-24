@@ -5,11 +5,11 @@ A music generation tool combined with Posenet and MusicRNN in the browser.
 
 You can learn more about the project through the following links:
 
-**GitHub**: [CCI_AP_PoseLoops](https://github.com/ShuSQ/CCI_AP_PoseLoops)
+**📎GitHub**: [CCI_AP_PoseLoops](https://github.com/ShuSQ/CCI_AP_PoseLoops)
 
-**Youtube**: [CCI_Advanced Project_PoseLoops](https://youtu.be/fTIae_AJdlc)
+**🎬Youtube**: [CCI_Advanced Project_PoseLoops](https://youtu.be/fTIae_AJdlc)
 
-**CodeSandbox**: [Demo](https://iqvt3.csb.app/)
+**📦CodeSandbox**: [Demo](https://iqvt3.csb.app/)
 
 > If loops are not generated when you try, you may need to spend a while waiting for the model to be loaded.  (´･_･`)
 
@@ -351,13 +351,13 @@ function arrayMap() {
 
 Finally, the bodyArray we get is our seedPattern, which can be passed to MusicRNN, and then the loops can be generated through pose.
 
-![](https://miro.medium.com/max/720/1*doDWo6ptKiFe7hLJA2IEhw.png)
+![](https://miro.medium.com/max/400/1*doDWo6ptKiFe7hLJA2IEhw.png)
 
 ##### 4. How to generate a random array
 
 This part is relatively simple, we only need to create the relevant HTML tag elements, and then provide a function to generate a two-dimensional array to complete the function of random generation:
 
-![](https://miro.medium.com/max/600/1*RQElhsexb3ZjcMJb9l4iXQ.png)
+![](https://miro.medium.com/max/400/1*RQElhsexb3ZjcMJb9l4iXQ.png)
 
 First, we create three `<div>` elements in index.html to help us obtain and provide controllable random parameters:
 
