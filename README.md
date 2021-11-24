@@ -75,7 +75,7 @@ In this part, I will mainly introduce which technical methods I have selected, a
 
 The first thing to be clear is, that because I want to quickly test and develop my project, although python or other computer languages may be more efficient in data processing and machine learning, I finally chose JavaScript as my development language. One reason is that browser-based projects can be easily experienced by most people through the Internet, and the other is that I am more familiar with JavaScript, and the development process will be smoother and smoother.
 
-##### 1. How to play audio via Tone.js
+#### 1. How to play audio via Tone.js
 
 What is Tone.js?
 
@@ -109,7 +109,7 @@ The following is a code snippet of my project, showing how Tone.js initializes t
 
 Through this part of the code, I created drumKit, which can be called to play various sound combinations in my future work.
 
-##### 2. How to generate loops through Magenta and MusicRNN
+#### 2. How to generate loops through Magenta and MusicRNN
 
 After creating a drumKit that can be played through Tone.js, we need to find a way, similar to creating "music scores", and then let drumKit play at a set rhythm; but considering that most people do not have enough music theory knowledge, so I want to add a method that can be automatically generated, so that people without music experience can create good loops. Finally, I found musicRNN. You give it a NoteSequence, and it continues it in the style of your original NoteSequence.
 
@@ -195,7 +195,7 @@ At this point, we have realized the serialization of the input array and increas
 
 ![](https://miro.medium.com/max/720/1*3HsziCbz0V11EsfDYBXtSg.png)
 
-##### 3. How to collect posenet through ml5.js
+#### 3. How to collect posenet through ml5.js
 
 What is ml5.js?
 
@@ -353,7 +353,7 @@ Finally, the bodyArray we get is our seedPattern, which can be passed to MusicRN
 
 ![](https://miro.medium.com/max/400/1*doDWo6ptKiFe7hLJA2IEhw.png)
 
-##### 4. How to generate a random array
+#### 4. How to generate a random array
 
 This part is relatively simple, we only need to create the relevant HTML tag elements, and then provide a function to generate a two-dimensional array to complete the function of random generation:
 
@@ -411,7 +411,7 @@ function randomArray() {
 }
 ```
 
-##### 5. How to generate input group and create seedpattern
+#### 5. How to generate input group and create seedpattern
 
 In this part, we will build an input group that allows users to create their own seedpattern by checking the form. The advantage of this method is that users can pass a seedpattern to MusicRNN more intuitively and clearly, and then get an AI Generated loops. Here, I used a clumsy method to achieve this, which is to create a large number of `<input>` tags in HTML. In fact, we can also use some frameworks, vue.js or react.js to create virtual DOM elements through JavaScript. , But I did not try:
 
@@ -487,13 +487,13 @@ Then in order to ensure the friendliness of the project, a clean function was ad
 
 After clicking `cleanBtn`, all input states in the checkboxGroup will be set to false.
 
-##### 6. How to adjust the web GUI and style
+#### 6. How to adjust the web GUI and style
 
 In the final interface visual design, I chose a relatively simple solid color style, which allows users to focus more on the interaction with interface elements. Similarly, I also added a js animation library (https ://zzz.dog), to help me create the loop animation on the loading interface, I also refer to the button styles of many other people, these elements enrich my project, so that users will not be so monotonous when they try; In CSS, the difficulty encountered is to adjust the native label elements. It takes a lot of time to understand how an input is defined. Of course, it also requires constant adjustment of parameters to achieve an ideal effect. This requires no little patience.
 
 ![](https://cdn-images-1.medium.com/max/960/1*TpY3HFezg-CqDlewhhKDBw.png)
 
-##### 7. Summary and Outlook
+#### 7. Summary and Outlook
 
 PoseLoops is a simple AI-driven music interactive project. Users can generate a unique melody through the posture information captured by webcam. Of course, users can also provide input to the neural network and generate unique output through random mode and editing mode. .
 
@@ -501,7 +501,7 @@ After finishing the project, I will think, in what areas can I make more attempt
 
 
 
-##### Related readings:
+### Related readings:
 
 Want to Generate your own Music using Deep Learning? Here’s a Guide to do just that!
 
