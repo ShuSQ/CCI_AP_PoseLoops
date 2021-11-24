@@ -199,7 +199,7 @@ At this point, we have realized the serialization of the input array and increas
 
 What is ml5.js?
 
-![](https://ml5js.org/static/ml5_logo_purple-88e082b8dc81d8729f95bcc092db90c5.png)
+![](https://ml5js.org/static/1552ab71e134d3f6aaed0c39fbc0b83c/4bad2/logo-purple-circle.png)
 
 https://ml5js.org
 
