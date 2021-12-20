@@ -9,7 +9,7 @@ You can learn more about the project through the following links:
 
 **Youtube🎬**: [CCI_Advanced Project_PoseLoops](https://youtu.be/fTIae_AJdlc)
 
-**CodeSandbox📦**: [Demo](https://iqvt3.csb.app/)
+**CodeSandbox📦**: [Demo](https://iqvt3.csb.app/) [Demo2](https://5xiik.csb.app/)( use Vanta.js background)
 
 > If loops are not generated when you try, you may need to spend a while waiting for the model to be loaded.  (´･_･`)
 
