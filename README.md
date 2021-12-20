@@ -1,7 +1,10 @@
 # CCI_AP_PoseLoops
 A music generation tool combined with Posenet and MusicRNN in the browser.
 
-![](https://miro.medium.com/max/1400/1*PCa0pOGTSQKMTve3K3FgtA.gif)
+![](https://miro.medium.com/max/1400/1*RJ62M05gH-IZoIXCk0FP_A.gif)
+
+
+![](https://miro.medium.com/max/900/1*PCa0pOGTSQKMTve3K3FgtA.gif)
 
 You can learn more about the project through the following links:
 
