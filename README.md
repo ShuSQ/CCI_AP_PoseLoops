@@ -4,7 +4,7 @@ A music generation tool combined with Posenet and MusicRNN in the browser.
 ![](https://miro.medium.com/max/1400/1*RJ62M05gH-IZoIXCk0FP_A.gif)
 
 
-![](https://miro.medium.com/max/1400/1*B6CxARS-pTUcKGoHXN4KIA.gif)
+![](https://miro.medium.com/max/600/1*B6CxARS-pTUcKGoHXN4KIA.gif)
 
 You can learn more about the project through the following links:
 
